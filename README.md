@@ -32,7 +32,7 @@
     * Takes Query Client as prop
 
 ## Queries
-A query is a declarative dependency on an asynchronous source of data that is tied to a unique key. A query can be used with any Promise based method (including GET and POST methods) to fetch data from a server. If your method modifies data on the server, is recommended to use Mutations instead.
+A query is a declarative dependency on an asynchronous source of data that is tied to a unique key. A query can be used with any Promise based method (including GET and POST methods) to fetch data from a server. If your method modifies data on the server, it is recommended to use Mutations instead.
 
 To subscribe to a query in your components or custom hooks, call the useQuery hook with at least:
 
